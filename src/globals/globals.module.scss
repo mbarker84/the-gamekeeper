@@ -1,0 +1,15 @@
+@import '../../node_modules/normalize-scss/sass/normalize';
+@import 'variables.scss';
+@import 'functions.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $black;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+}

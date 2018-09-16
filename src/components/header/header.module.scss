@@ -1,0 +1,22 @@
+@import '../../globals/globals.module.scss';
+
+.header {
+  padding: rem(20px);
+  color: $black;
+  background: linear-gradient(to right, $brown-light, $brown-dark);
+}
+
+.mainTitle {
+  display: block;
+  font-size: rem(48px);
+  margin-bottom: rem(5px);
+}
+
+.siteTitle {
+  margin: 0;
+}
+
+.subtitle {
+  display: block;
+  font-size: rem(20px);
+}
